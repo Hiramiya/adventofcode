@@ -4,13 +4,13 @@ with open("01/input") as f:
         dataarray.append(int(line.rstrip()))
 
 ## Solve for part 1
-# count = 0
-# previous = 0
-# for entry in dataarray:
-#   if entry > previous:
-#     count += 1
-#   previous = entry
-# print(count - 1)
+count = 0
+previous = 0
+for entry in dataarray:
+  if entry > previous:
+    count += 1
+  previous = entry
+print(count - 1)
 
 ## Solve for part 2
 count = 0
